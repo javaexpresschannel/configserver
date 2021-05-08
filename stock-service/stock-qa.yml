@@ -1,15 +1,16 @@
 server:
-  port: 8043
+  port: 8021
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    password: null
-    url: jdbc:h2:mem:testdb
-    username: sa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: India@123
+    url: jdbc:mysql://localhost:3306/stock-qa
+    username: root
+    initialization-mode: always
   jpa:
     properties:
       hibernate:
         format_sql: true
     show-sql: true
-  application:
-    name: stock-service
+    hibernate:
+      ddl-auto: update
