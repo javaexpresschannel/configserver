@@ -1,9 +1,9 @@
 server:
-  port: 8041
+  port: 8048
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    password: null
+    password: sa
     url: jdbc:h2:mem:testdb
     username: sa
   jpa:
