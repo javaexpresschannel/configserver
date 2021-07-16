@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: India@123
-    url: jdbc:mysql://localhost:3306/stock-prod
+    url: jdbc:mysql://localhost:3306/stock-prod?createDatabaseIfNotExist=true
     username: root
     initialization-mode: always
   jpa:
