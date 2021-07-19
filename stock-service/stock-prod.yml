@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     password: India@123
-    url: jdbc:mysql://localhost:3306/stock-prod?createDatabaseIfNotExist=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/stock-prod
     username: root
     initialization-mode: always
   jpa:
