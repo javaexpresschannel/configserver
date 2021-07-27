@@ -1,5 +1,5 @@
 server:
-  port: 8067
+  port: 8068
 spring:
   datasource:
     password: India@123
