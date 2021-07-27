@@ -2,7 +2,7 @@ server:
   port: 8067
 spring:
   datasource:
-    password: India@124
+    password: India@123
     url: jdbc:mysql://localhost:3306/stock-prod
     username: root
     initialization-mode: always
