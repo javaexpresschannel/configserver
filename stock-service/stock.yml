@@ -1,3 +1,2 @@
-spring:
-  main:
-    banner-mode: off
+info:
+  author: Bhaskar
